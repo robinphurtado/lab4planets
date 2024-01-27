@@ -1,0 +1,27 @@
+
+body {
+  font-family: Arial;
+	background-color: #CBE2F6;
+	text-align: center; 
+ 
+}
+
+#navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+
+p {
+  display: inline-block;
+  width: 60%;
+}
+
+footer{
+ font-size: small;
+}
+
+.footnotes {
+  list-style-type: none;
+  font-size: x-small;
+}

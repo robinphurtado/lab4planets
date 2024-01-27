@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<%- include('partials/header.ejs') %>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Solar System</title>
+</head>
+<body>
+    <h1>Planet Earth</h1>
+
+  <%- include('partials/nav.ejs') %>
+	 <br>
+	 <img src="<%= earthUrl %>" alt="Image of Planet Earth">
+  <br>
+        <p>
+      Earth is the planet on which we live.  It is the third planet from the sun, and the fifth largest in our Solar System.  It consists of a crust, mantle, and core.  The crust is the  outside surface on which we humans live.  The mantel consists of nearly all solid rocks.  The core is made up of mostly iron, with some nickel.  The outer core is liquid, but the inner core is solid due to the pressure at its depth.  It is the only planet in our Solar System that has water in its liquid form.  
+    </p>
+
+    <ul class="footnotes">
+      References:
+      
+      <li><a href="https://openpress.usask.ca/physicalgeology/chapter/3-1-earths-layers-crust-mantle-and-core-2/">Earth's Layers</a></li>
+            <li><a href="https://solarsystem.nasa.gov/planets/earth/overview/">Overview | Earth</a></li>
+    </ul>
+    
+    <%- include('partials/footer.ejs') %>
+</body>
+</html>
